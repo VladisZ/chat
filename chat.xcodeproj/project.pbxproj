@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0176EF2740E8F2008752BB /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0176EE2740E8F2008752BB /* ButtonFormView.swift */; };
 		7C34E86D273FE5A5000AB409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34E86C273FE5A5000AB409 /* AppDelegate.swift */; };
 		7C34E86F273FE5A5000AB409 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34E86E273FE5A5000AB409 /* SceneDelegate.swift */; };
 		7C34E871273FE5A5000AB409 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34E870273FE5A5000AB409 /* AuthViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C0176EE2740E8F2008752BB /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		7C34E869273FE5A5000AB409 /* chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C34E86C273FE5A5000AB409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C34E86E273FE5A5000AB409 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,16 +69,33 @@
 				7C34E86C273FE5A5000AB409 /* AppDelegate.swift */,
 				7C34E86E273FE5A5000AB409 /* SceneDelegate.swift */,
 				7C34E870273FE5A5000AB409 /* AuthViewController.swift */,
-				7CEC5636273FFF35001D8494 /* Label + Extension.swift */,
-				7CEC563827400063001D8494 /* UIImageView + Extension.swift */,
-				7CEC5634273FFCAA001D8494 /* UIColor + Extension.swift */,
-				7CEC5632273FFB1F001D8494 /* UIFont + Extension.swift */,
-				7C62FD02273FF5BC008623AD /* UIButton + Extension.swift */,
+				7CCDE2362740E6CC00CA848A /* Extensions */,
 				7C34E875273FE5A6000AB409 /* Assets.xcassets */,
 				7C34E877273FE5A6000AB409 /* LaunchScreen.storyboard */,
 				7C34E87A273FE5A6000AB409 /* Info.plist */,
 			);
 			path = chat;
+			sourceTree = "<group>";
+		};
+		7CCDE2362740E6CC00CA848A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7CCDE2372740E6F100CA848A /* UIKIT */,
+				7C0176EE2740E8F2008752BB /* ButtonFormView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7CCDE2372740E6F100CA848A /* UIKIT */ = {
+			isa = PBXGroup;
+			children = (
+				7CEC5636273FFF35001D8494 /* Label + Extension.swift */,
+				7CEC563827400063001D8494 /* UIImageView + Extension.swift */,
+				7CEC5634273FFCAA001D8494 /* UIColor + Extension.swift */,
+				7CEC5632273FFB1F001D8494 /* UIFont + Extension.swift */,
+				7C62FD02273FF5BC008623AD /* UIButton + Extension.swift */,
+			);
+			path = UIKIT;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +171,7 @@
 				7CEC5633273FFB1F001D8494 /* UIFont + Extension.swift in Sources */,
 				7C34E871273FE5A5000AB409 /* AuthViewController.swift in Sources */,
 				7CEC5637273FFF35001D8494 /* Label + Extension.swift in Sources */,
+				7C0176EF2740E8F2008752BB /* ButtonFormView.swift in Sources */,
 				7C34E86D273FE5A5000AB409 /* AppDelegate.swift in Sources */,
 				7CEC563927400063001D8494 /* UIImageView + Extension.swift in Sources */,
 				7CEC5635273FFCAA001D8494 /* UIColor + Extension.swift in Sources */,
