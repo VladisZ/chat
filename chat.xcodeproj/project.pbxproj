@@ -16,6 +16,7 @@
 		7C34E876273FE5A6000AB409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C34E875273FE5A6000AB409 /* Assets.xcassets */; };
 		7C34E879273FE5A6000AB409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C34E877273FE5A6000AB409 /* LaunchScreen.storyboard */; };
 		7C62FD03273FF5BC008623AD /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62FD02273FF5BC008623AD /* UIButton + Extension.swift */; };
+		7C9AE2BE2741783E003D0D04 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AE2BD2741783E003D0D04 /* LoginViewController.swift */; };
 		7CD8D0AC27411BEE006B8633 /* OneLineTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD8D0AB27411BEE006B8633 /* OneLineTextfield.swift */; };
 		7CEC5633273FFB1F001D8494 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC5632273FFB1F001D8494 /* UIFont + Extension.swift */; };
 		7CEC5635273FFCAA001D8494 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC5634273FFCAA001D8494 /* UIColor + Extension.swift */; };
@@ -35,6 +36,7 @@
 		7C34E878273FE5A6000AB409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C34E87A273FE5A6000AB409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C62FD02273FF5BC008623AD /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		7C9AE2BD2741783E003D0D04 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7CD8D0AB27411BEE006B8633 /* OneLineTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextfield.swift; sourceTree = "<group>"; };
 		7CEC5632273FFB1F001D8494 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		7CEC5634273FFCAA001D8494 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				7C34E86E273FE5A5000AB409 /* SceneDelegate.swift */,
 				7C34E870273FE5A5000AB409 /* AuthViewController.swift */,
 				7C0176F22740FEF0008752BB /* SignUpViewController.swift */,
+				7C9AE2BD2741783E003D0D04 /* LoginViewController.swift */,
 				7CCDE2362740E6CC00CA848A /* Extensions */,
 				7C34E875273FE5A6000AB409 /* Assets.xcassets */,
 				7C34E877273FE5A6000AB409 /* LaunchScreen.storyboard */,
@@ -188,6 +191,7 @@
 				7CD8D0AC27411BEE006B8633 /* OneLineTextfield.swift in Sources */,
 				7C34E86F273FE5A5000AB409 /* SceneDelegate.swift in Sources */,
 				7C62FD03273FF5BC008623AD /* UIButton + Extension.swift in Sources */,
+				7C9AE2BE2741783E003D0D04 /* LoginViewController.swift in Sources */,
 				7C0176F12740FA26008752BB /* StackView + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
