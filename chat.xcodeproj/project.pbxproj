@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C0176EF2740E8F2008752BB /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0176EE2740E8F2008752BB /* ButtonFormView.swift */; };
+		7C0176F12740FA26008752BB /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0176F02740FA26008752BB /* StackView + Extension.swift */; };
 		7C34E86D273FE5A5000AB409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34E86C273FE5A5000AB409 /* AppDelegate.swift */; };
 		7C34E86F273FE5A5000AB409 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34E86E273FE5A5000AB409 /* SceneDelegate.swift */; };
 		7C34E871273FE5A5000AB409 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34E870273FE5A5000AB409 /* AuthViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		7C0176EE2740E8F2008752BB /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		7C0176F02740FA26008752BB /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
 		7C34E869273FE5A5000AB409 /* chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C34E86C273FE5A5000AB409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C34E86E273FE5A5000AB409 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				7CEC5634273FFCAA001D8494 /* UIColor + Extension.swift */,
 				7CEC5632273FFB1F001D8494 /* UIFont + Extension.swift */,
 				7C62FD02273FF5BC008623AD /* UIButton + Extension.swift */,
+				7C0176F02740FA26008752BB /* StackView + Extension.swift */,
 			);
 			path = UIKIT;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				7CEC5635273FFCAA001D8494 /* UIColor + Extension.swift in Sources */,
 				7C34E86F273FE5A5000AB409 /* SceneDelegate.swift in Sources */,
 				7C62FD03273FF5BC008623AD /* UIButton + Extension.swift in Sources */,
+				7C0176F12740FA26008752BB /* StackView + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

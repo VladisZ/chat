@@ -37,10 +37,8 @@ class AuthViewController: UIViewController {
         let emailView = ButtonFormView(label: emailLabel, button: emailButton)
         let loginView = ButtonFormView(label: alreadyOnBoardLabel, button: loginButton)
         
-        let stackView = UIStackView(arrangedSubviews: [googleView, emailView, loginView])
+        let stackView = UIStackView(arrangedSubwiews: [googleView, emailView, loginView], axis: .vertical, spacing: 40)
         stackView.translatesAutoresizingMaskIntoConstraints = false
-        stackView.axis = .vertical
-        stackView.spacing = 40
         
         view.addSubview(logoImageView)
         view.addSubview(stackView)
